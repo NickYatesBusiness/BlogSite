@@ -20,6 +20,8 @@ app.use(bodyParser.json())
 app.use(passport.initialize());
 app.use(passport.session());
 
+app.use( express.static( `${__dirname}/../build` ) );
+
 massive(process.env.CONNECTION_STRING)
 .then( db => {
    app.set('db', db) // Massive
