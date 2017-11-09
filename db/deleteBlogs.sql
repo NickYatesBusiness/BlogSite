@@ -1,0 +1,2 @@
+DELETE FROM BLOGS
+WHERE id = $1 

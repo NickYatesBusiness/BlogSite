@@ -1,0 +1,3 @@
+SELECT *
+FROM BLOGS
+WHERE userId = $1

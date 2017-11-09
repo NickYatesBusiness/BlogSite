@@ -1,0 +1,3 @@
+    SELECT *
+    FROM USERS
+    JOIN BLOGS ON BLOGS.userId=USERS.ID
