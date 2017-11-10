@@ -130,5 +130,5 @@ app.get('/api/users', (req, res) => {
     }).catch((err) => {console.log(err)})
 })
 
-const port = 80;
-app.listen(port, () => {console.log("Server is running on port " + 80)})
+const port = 3535;
+app.listen(port, () => {console.log("Server is running on port " + port)})
